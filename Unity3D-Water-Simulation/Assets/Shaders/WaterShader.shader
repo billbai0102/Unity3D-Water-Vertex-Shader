@@ -17,7 +17,7 @@
         LOD 200
 
         CGPROGRAM
-		#pragma surface surf Standard fullforwardshadows vertex:vert
+		#pragma surface surf Standard fullforwardshadows vertex:vert addshadow
 		#pragma target 4.0
 
         sampler2D _MainTex;
